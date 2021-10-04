@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/*CONTENITORE*/
 .contenitore {
     width: 1300px;
     margin: 0 auto;
@@ -13,12 +14,11 @@
 
 /*BOX*/
 .box{
-    width: calc(100% / 3 - 80px);
     display: inline-block;
-    margin: 10px;
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+    
 } 
-
-
 
 
 .img1 {
