@@ -26,8 +26,6 @@
     margin: 5px;
     position: relative;
     float: left;
-    font-weight: bold;
-
 } 
 
 .img1 {
@@ -39,6 +37,8 @@ display: block;
     
 }
 
+/*QUADRATINI*/
+
 .rosso {
     background-color: red;
     color: white;
@@ -47,6 +47,7 @@ display: block;
     bottom: 5%;
     padding: 5px;
     margin-right: 10%;
+    font-weight: bold;
 
 }
 
@@ -57,6 +58,7 @@ display: block;
     left: 12%;
     bottom: 5%;
     padding: 5px;
+    font-weight: bold;
 }
 
 .cuore {
@@ -66,6 +68,22 @@ display: block;
     right: 0%;
     top: 5%;
     padding: 7px;
+}
+
+/*TEXT*/
+
+.textm {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-size: medium;
+}
+
+.barrato {
+    text-decoration: line-through;
 }
 
 
