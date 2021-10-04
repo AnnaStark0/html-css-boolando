@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*CONTENITORE*/
@@ -11,20 +12,56 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 /*BOX*/
-.box{
-    display: inline-block;
-    width: calc(100% / 3 - 10px);
-    margin: 5px;
-    
-} 
 
+.box{
+    
+    width: calc((100% / 3) - 10px);
+    margin: 5px;
+    position: relative;
+    float: left;
+    font-weight: bold;
+
+} 
 
 .img1 {
     
 }
 
+.rosso {
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+    padding: 5px;
+    margin-right: 10%;
+
+}
+
+.verde {
+    background-color: green;
+    color: white;
+    position: absolute;
+    left: 12%;
+    bottom: 5%;
+    padding: 5px;
+}
+
+.cuore {
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    padding: 7px;
+}
 
 
 
