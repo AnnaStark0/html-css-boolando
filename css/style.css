@@ -1,0 +1,40 @@
+/*Commons*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+/*BOX*/
+.box{
+    width: calc(100% / 3 - 80px);
+    display: inline-block;
+    margin: 10px;
+} 
+
+
+
+
+.img1 {
+    
+}
+
+
+
+
+/*DEBUG*/
+.debug-contenitore {
+    height: 1000px;
+    background-color: aqua;
+}
+
+.debug-box {
+    height: 600px;
+    background-color: rgb(18, 240, 103);
+}
