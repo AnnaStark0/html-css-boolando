@@ -26,6 +26,8 @@
     margin: 5px;
     position: relative;
     float: left;
+
+    margin-bottom: 100px;
 } 
 
 .img1 {
@@ -61,6 +63,20 @@ display: block;
     font-weight: bold;
 }
 
+.verde2 {
+    background-color: green;
+    color: white;
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
 .cuore {
     background-color: white;
     color: black;
@@ -71,6 +87,10 @@ display: block;
 }
 
 /*TEXT*/
+
+.margtext {
+    margin-top: 8px;
+}
 
 .textm {
     text-transform: uppercase;
@@ -89,10 +109,10 @@ display: block;
 
 
 /*DEBUG*/
-.debug-contenitore {
+/*.debug-contenitore {
     height: 1000px;
     background-color: aqua;
-}
+}*/
 
 .debug-box {
     height: 600px;
