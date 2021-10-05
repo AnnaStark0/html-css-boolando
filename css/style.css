@@ -70,7 +70,6 @@ margin: auto;
 display: block;
 }
 
- 
 /*Hover*/ 
 .overlay {
     position: absolute;
@@ -81,7 +80,7 @@ display: block;
     height: 100%;
     width: 100%;
     opacity: 0;
-  }
+}
 
 .box:hover .overlay {
     opacity: 1;
